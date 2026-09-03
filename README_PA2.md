@@ -214,3 +214,5 @@ np.save('above_mean', above_mean)
 ```
 
 The end.
+
+## Thank you for reading!
