@@ -93,6 +93,25 @@ array([[ 0.06340841, -1.36714726, -1.2124926 ,  0.79801809, -0.98051059],
 np.save('X_normalized', X_normalized)
 ```
 
+* .mean() - was used to get the normalized mean of 'X_normalized'.
+
+  ```python
+  X_normalized.mean()
+  ```
+  Output:
+```text
+np.float64(0.0)
+```
+ * .std() - was used to get the normalized standard deviation of 'X_normalized'.
+
+    ```python
+    X_normalized.std()
+    ```
+      Output:
+```text
+np.float64(0.9999999999999999)
+```
+
 ## B. Cubes Divisible by 4 Problem
 
 Create a 10 x 10 array containing the cubes of the first 100 positive integers, and filter out only the cubed numbers that are divisible by 4.
